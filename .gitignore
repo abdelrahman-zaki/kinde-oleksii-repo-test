@@ -1,0 +1,14 @@
+*.js
+!jest.config.js
+!eslint.config.js
+node_modules
+myenv
+*dist*
+dist
+dist-ssr
+*.local
+*.tsbuildinfo
+
+# CDK asset staging directory
+.cdk.staging
+cdk.out
