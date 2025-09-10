@@ -70,4 +70,4 @@ export default async function handlePreRegistration(
 //   ) {
 //     kinde.auth.denyAccess("Blocked email domain detected");
 //   }
-// }
+}
