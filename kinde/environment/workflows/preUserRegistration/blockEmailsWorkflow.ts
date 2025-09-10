@@ -41,17 +41,17 @@ export default async function handlePreRegistration(
   //   "DISPOSABLE_EMAIL_DOMAINS"
   // )?.value;
   // disposableEmailDomains
-  const disposableEmailDomainsArray = disposableEmailDomains?.split(",");
+//   const disposableEmailDomainsArray = disposableEmailDomains?.split(",");
 
-  if (
-    disposableEmailDomainsArray?.includes(
-      event.context.user.email.split("@")[1]
-    )
-  ) {
-    denyAccess("Disposable email domain detected");
-    console.log("Disposable email domain detected");
-  }
-}
+//   if (
+//     disposableEmailDomainsArray?.includes(
+//       event.context.user.email.split("@")[1]
+//     )
+//   ) {
+//     denyAccess("Disposable email domain detected");
+//     console.log("Disposable email domain detected");
+//   }
+// }
 
 // The workflow code to be executed when the event is triggered
 // export default async function Workflow(event: any) {
